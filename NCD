@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+
+/home/xxx/Downlaods//nCat-Linux-amd64 -station Maestro -slice A -listen :4532 &
+/home/xxx/Downloads//nCat-Linux-amd64 -station Maestro -slice B -listen :4533 &
+
+
+/home/xxx/Downloads//nCat-Linux-amd64 -station Maestro -slice A -daxch 1 -flex.sliceA.rx -sink flex.sliceA.tx &
+/home/xxx/Downloads//nCat-Linux-amd64 -station Maestro -slice B -daxch 2 -flex.sliceB.rx -sink flex.sliceB.tx &
