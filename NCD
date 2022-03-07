@@ -2,7 +2,7 @@
 
 
 
-/home/xxx/Downlaods//nCat-Linux-amd64 -station Maestro -slice A -listen :4532 &
+/home/xxx/Downloads//nCat-Linux-amd64 -station Maestro -slice A -listen :4532 &
 /home/xxx/Downloads//nCat-Linux-amd64 -station Maestro -slice B -listen :4533 &
 
 
